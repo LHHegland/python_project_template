@@ -161,7 +161,7 @@ if __name__ == '__main__':
         logger = setup(__name__, args.logfile_path_name)
 
     try: # Code to execute, at least until an exception occurs
-        print('\n\n----- STARTING EXECUTION -----\nOne moment please.')
+        print('\n\n----- STARTING EXECUTION -----\nOne moment please…')
         if args.is_test_exception_specified:
             # test specified ZeroDivisionError exception handling
             some_variable = 1 / 0
@@ -217,7 +217,7 @@ if __name__ == '__main__':
         if args.logfile_path_name == None:
             print('\n\nSUCCESSFUL EXECUTION: See output displayed above.')
         else:
-            print('\n\nSUCCESSFUL EXECUTION: See output in', args.logfile_path_name, '.')
+            print('\n\nSUCCESSFUL EXECUTION: See output in ' + args.logfile_path_name + '.')
 
 
     except ZeroDivisionError: # Code to handle specific exception

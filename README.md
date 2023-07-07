@@ -2,7 +2,7 @@
 
 **NAMESPACE:** me.hegland-lance
 
-**PURPOSE:** Offer a template collection of common project files to help create new Python projects more quickly, easily, and reliably using files that Lance Hegland created and tested for his personal use to improve readability, usability, testability, debuggability, and sustainability. See [more specific features](#features) for additional details.
+**PURPOSE:** Offer a template collection of common Python project files to help create new  projects more quickly, easily, and reliably. See [more specific features](#features) for additional details.
 
 .
 
@@ -31,8 +31,8 @@
     - [function annotations](https://peps.python.org/pep-0008/#function-annotations)
     - [type hints](https://peps.python.org/pep-0484/)
     - [variable annotations](https://peps.python.org/pep-0008/#variable-annotations) and [variable annotation syntax](https://peps.python.org/pep-0526/)
-  - command line interface help and usage instructions using [The Python standard library's argparse package](https://docs.python.org/3/library/argparse.html)
-  - logging using an intra-project module [config_log.py](config_log.py) and [The Python standard library's logging package](https://docs.python.org/3/library/logging.html)
+  - command line interface help and usage instructions using [The Python Standard Library's argparse package](https://docs.python.org/3/library/argparse.html)
+  - logging using an intra-project module [config_log.py](config_log.py) and [The Python Standard Library's logging package](https://docs.python.org/3/library/logging.html)
     - output (stderr) to either screen or file based on user instructions (see `py config_log.py -h`)
     - short "FYI" messages for info and debug logging levels
     - more detailed "alert" messages for warning, error, and critical logging levels
@@ -44,7 +44,7 @@
 
 ## **Background**
 
-Lance Hegland wanted application development templates that had been reviewed and adapted while practicing [lean methodologies](https://www.lean.org/explore-lean/what-is-lean/), specifically the following elements:
+Lance Hegland wanted application development templates for his personal use that might improve the readability, usability, testability, debuggability, and sustainability of his projects. So, he began developing and testing these templates while practicing [lean methodologies](https://www.lean.org/explore-lean/what-is-lean/), specifically the following activities:
 - [5S (Sort, Set in Order, Shine, Standardize, and Sustain)](https://www.lean.org/lexicon-terms/five-s/)
 - [Poka-Yok (mistake-proofing)](https://www.lean.org/lexicon-terms/poka-yoke/)
 - [Just-in-Time (JIT)](https://www.lean.org/lexicon-terms/just-in-time-production/)
